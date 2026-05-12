@@ -1,5 +1,5 @@
 **1.元组i结构体**
-```
+```rust
 use std::ops::Add;
 struct Millimeters(u32);
 struct Meters(u32);
@@ -24,7 +24,7 @@ Self 是一个类型别名，表示当前正在实现的类型`
 它们都放在`impl` 块内
 
 关联函数：
-```
+```rust
  fn new(width: u32, height: u32) -> Self {
         Self { width, height }
     }
